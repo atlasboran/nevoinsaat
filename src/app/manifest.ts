@@ -1,4 +1,13 @@
 import { MetadataRoute } from "next";
+ export const dynamic = "force-static";
+
+  Yani başlangıcı şöyle olsun:
+
+  import { MetadataRoute } from "next";
+
+  export const dynamic = "force-static";
+
+  export default function manifest(): MetadataRoute.Manifest {
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
