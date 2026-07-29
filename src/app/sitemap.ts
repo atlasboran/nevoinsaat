@@ -4,7 +4,7 @@ import { services } from "@/data/services";
 import { blogPosts } from "@/data/blog";
 import { seoPages } from "@/data/seoPages";
 import { ankaraDistricts } from "@/data/districts";
-
+export const dynamic = "force-static";
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = "https://nevoinsaat.com";
 
